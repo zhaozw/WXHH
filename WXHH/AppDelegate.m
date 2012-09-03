@@ -52,7 +52,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    NSLog(@"Test git!");
+    NSLog(@"Test git 222!");
     self.window.backgroundColor = [UIColor blackColor];
     [UIApplication sharedApplication].idleTimerDisabled = YES;
     state = AppStateLaunch;
